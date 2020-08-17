@@ -78,9 +78,9 @@ if args.ch_count ==0 or args.ch_count ==1 :
         channel_arr.append([30, 32, 89, 93,  5, 15, 19, 23,  8, 84])
         channel_arr.append([26, 28, 81, 85, 87, 91,  7,  4, 86, 80])
         channel_arr.append([22, 24, 77, 79, 83,  3, 11, 66, 82, 76])
-        channel_arr.append([18, 20, 73, 15, 95, 54, 62, 74, 78, 72])
+        channel_arr.append([18, 20, 73, 75, 95, 54, 62, 74, 78, 72])
         channel_arr.append([14, 16, 94, 96, 57, 58, 50, 70, 64, 68])
-        channel_arr.append([10, 16, 90, 92, 61, 65, 69, 71, 56, 60])
+        channel_arr.append([10, 12, 90, 92, 61, 65, 69, 71, 56, 60])
         channel_arr.append([ 'N', 51, 49, 53, 55, 59, 63, 67, 52 ,'N' ])
         for i in range(10):
             for j in range(10):
