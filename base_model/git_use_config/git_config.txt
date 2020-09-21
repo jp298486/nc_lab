@@ -38,3 +38,26 @@ Changes not staged for commit:
 
 添加commit 的message
 >>git commit -m '添加訊息,表示這些add 是做了哪些變更'
+
+#----------------
+整體流程:
+[1]
+Fork 他人專案
+或
+new 個人新專案
+[2]上述[1]的URL到當前本地路徑的資料夾下,其本身此一資料夾就自帶remote
+>> git clone <url>
+(clone下的本身就將本地與當前專案掛勾,如果不透過clone方式,則)
+>> git remote add <url ex:https://github.com/jp298486/nc_lab.git>
+[3] 檢查 git status 如上述
+[4] 有變更的話則會報提示要不要add到暫存區
+>> git add --all
+[5] 確認完的變更code 上傳到git 前需添加commit , -m :message
+>> git commit -m '變更內容註解'
+[6]上傳到網路
+>> git push
+
+以上沒分branch (版本控制)
+
+#----------------
+
