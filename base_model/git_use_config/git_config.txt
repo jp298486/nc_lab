@@ -1,0 +1,40 @@
+Ref : Git 版本控制筆記 - 在 Git 提交(commit)檔案:
+#----------------------
+
+git 在提交之前，必須要先把檔案的「變更」加入(add)到暫存區域(staging area)，
+這個變更才能被提交(commit)到版本儲存庫.
+注意一個關鍵，雖然在之後操作指令時是輸入檔案名稱，但實際加入的是檔案的「變更」，因此檔案加入到暫存區域後有變更的話還要再加入一次，否則之後的變更不會被提交，參考下圖:
+work dir(本地目錄)    stage Area(暫存變更)     Repository(版本儲存)
+	  本地添加至暫存               暫存上傳到repo      
+	--- git add ----->          --- git commit --->
+#----------------------
+
+Ref :https://blog.techbridge.cc/2018/01/17/learning-programming-and-coding-with-python-git-and-github-tutorial/
+
+
+指定本地資料夾 為Git repository
+>>git init
+
+指定後 檢查其狀態
+>>git status
+
+添加 新的檔案被git追蹤/暫存, 透過git status 可發現此資料夾內的顯示有綠跟紅(ubuntu介面)
+綠的為已經暫存git內,紅色為被變更或新增的檔案,透過git status會提示這些紅色的檔案提示
+add 對於修改的檔案要保存(對於當前是否要修改暫存)
+checkout 放棄修改(對於當前是否要修改暫存)
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+>>
+
+檢查變更(檢查所有有變更過得檔案)
+>>git diff 
+檢查變更(檢查指定檔案是否變更)
+>>git diff <file>
+
+檔案尚未加入過追蹤時使用，即可恢復到檔案尚未加入暫存區
+對於已add到暫存的變更檔案,如果要反悔,則使用
+>>git rm --cached <file>
+
+添加commit 的message
+>>git commit -m '添加訊息,表示這些add 是做了哪些變更'
