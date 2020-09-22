@@ -1,7 +1,6 @@
 Refference:
 	https://github.com/LanKuDot/MLGame
 
-Task :
-	[1]akaknoid
+[1]akaknoid
 	
-	[2]pingpong
+[2]pingpong
