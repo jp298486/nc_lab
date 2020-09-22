@@ -7,7 +7,28 @@ git 在提交之前，必須要先把檔案的「變更」加入(add)到暫存�
 work dir(本地目錄)    stage Area(暫存變更)     Repository(版本儲存)
 	  本地添加至暫存               暫存上傳到repo      
 	--- git add ----->          --- git commit --->
-#----------------------
+1.第一次初始
+在Github開repo
+git clone [clone URL] 先把code從Github抓下來
+
+2.
+進到該目錄中
+git branch [branch-name] 生一個新branch
+git checkout [branch-name] 切換到此branch上
+
+3.
+git status 看修改了哪些檔案
+git add [修改到的檔案] 一個檔一個檔自己加，因為這樣可以Double check自己到底改了哪些檔
+git commit 註解要寫清楚 完成一個小功能就要commit一次
+重複步驟3.直到 git status 顯示沒有任何修改過的檔案
+
+4.
+git checkout master
+git merge [branch-name] 和master merge起來
+git push 然後接著輸入Github的帳號密碼
+
+如果只有一人work，每次的流程就是跑 2.~4.
+#---------------------------------------------------------------------------
 
 Ref :https://blog.techbridge.cc/2018/01/17/learning-programming-and-coding-with-python-git-and-github-tutorial/
 
@@ -53,7 +74,7 @@ new 個人新專案
 [4] 有變更的話則會報提示要不要add到暫存區
 >> git add --all
 [5] 確認完的變更code 上傳到git 前需添加commit , -m :message
->> git commit -m '變更內容註解'
+>> git commit -m 'git 檔案後面 的 內容註解'
 [6]上傳到網路
 >> git push
 
