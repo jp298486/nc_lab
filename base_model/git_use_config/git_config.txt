@@ -53,7 +53,7 @@ new 個人新專案
 [4] 有變更的話則會報提示要不要add到暫存區
 >> git add --all
 [5] 確認完的變更code 上傳到git 前需添加commit , -m :message
->> git commit -m '變更內容註解'
+>> git commit -m 'git 檔案後面 的 內容註解'
 [6]上傳到網路
 >> git push
 
