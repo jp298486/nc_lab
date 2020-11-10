@@ -21,5 +21,13 @@ Attention:
 以及
 noise concat label的attention
 
+添加wgan
+但是有些問題未解決
+在mnist做的起來
+
+但是在自定義的distribution 上做不太起來
+且
+wgan-gp在自定義的部份由於Dis. loss問題未解決
+
 ps:
 網路的self-attention GAN 是基於sn-gan的框架
