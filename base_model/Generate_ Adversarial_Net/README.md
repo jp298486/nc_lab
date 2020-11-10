@@ -11,12 +11,15 @@ step 2:
 
 cGAN
 cGAN的label使用何種方式轉換成vector
+
 [1] nn.embedding
 [2] nn.Linear
 [3] postional embedding
+
 Attention:
 主要對於G的label部份做self-attention
 以及
 noise concat label的attention
+
 ps:
 網路的self-attention GAN 是基於sn-gan的框架
