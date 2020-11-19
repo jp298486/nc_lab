@@ -11,13 +11,13 @@ Makin, Joseph G., et al. "Superior arm-movement decoding from cortex with a new,
 
 Decoder used this datasets code:
 
->> single session decode model maybe could ref. 'read_data_20_07_16_v1.py'
+single session decode model maybe could ref. 'read_data_20_07_16_v1.py'
 
->> cross session model(CNN + GRU) : 2020_08_17_cross_session_baseline.ipynb
+cross session model(CNN + GRU) : 2020_08_17_cross_session_baseline.ipynb
 
 Analysis coefficient of correlation with 'neural signal' &&  'velocity':
 
->> cc_analysis_modify.ipynb
+cc_analysis_modify.ipynb
 
 Observation:
 Attention module on GAN's generator
