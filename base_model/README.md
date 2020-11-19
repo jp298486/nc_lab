@@ -10,14 +10,13 @@ Paper:
 Makin, Joseph G., et al. "Superior arm-movement decoding from cortex with a new, unsupervised-learning algorithm." Journal of neural engineering 15.2 (2018)
 
 Decoder used this datasets code:
-
 single session decode model maybe could ref. 'read_data_20_07_16_v1.py'
-
 cross session model(CNN + GRU) : 2020_08_17_cross_session_baseline.ipynb
 
-Analysis coefficient of correlation with 'neural signal' &&  'velocity':
 
+Analysis coefficient of correlation with 'neural signal' &&  'velocity':
 cc_analysis_modify.ipynb
+
 
 Observation:
 Attention module on GAN's generator
