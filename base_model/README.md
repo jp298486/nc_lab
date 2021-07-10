@@ -50,6 +50,7 @@ Result:
 ![image](https://github.com/jp298486/nc_lab/blob/master/base_model/image/result_with_cross_data_predict.png)
 
 如圖3所示，找出最佳的time bin區間
+
 ![image](https://github.com/jp298486/nc_lab/blob/master/base_model/image/spike_with_movement.png)
 ![image](https://github.com/jp298486/nc_lab/blob/master/base_model/image/anilysis_data_move_with_time.png)
 
