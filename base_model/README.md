@@ -28,4 +28,10 @@ compare nn.embedding / nn.Linear / positional emb. with input 'label(condition)'
 透過cross data的方式，使得訓練資料變多，進而提升預測值
 
 不同天數的神經細胞數據，會有差異性問題，ex:速度(vel)所對應的spike firing的量根據不同天的數據有可能會有不同
-(https://github.com/jp298486/nc_lab/blob/master/base_model/image/spike_firing_variation.png)
+## 解決問題
+根據假設，off line的情況:
+
+透過cross data的方式，使得訓練資料變多，進而提升預測值
+
+不同天數的神經細胞數據，會有差異性問題，ex:速度(vel)所對應的spike firing的量根據不同天的數據有可能會有不同
+![image.](https://github.com/jp298486/nc_lab/blob/master/base_model/image/spike_firing_variation.png)
